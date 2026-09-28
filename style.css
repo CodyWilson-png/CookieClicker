@@ -1,0 +1,39 @@
+body{
+ background-color: rgba(43, 33, 28, 0.4);
+ color: rgb(196, 199, 7);
+ text-align: center;
+ display: flex;
+}
+
+#cookieBtn{
+ border: dotted;
+ background: none;
+ cursor: pointer;
+ touch-action: manipulation;
+}
+
+#cookieBtn img{
+ width: 200px;
+}
+
+#shop {
+ text-align: right;
+ margin-left: 200px;
+ color: rgb(56, 224, 41);
+}
+
+#shop button{
+ border: dotted;
+ background: none;
+ cursor: pointer;
+}
+
+#camera {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
